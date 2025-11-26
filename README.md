@@ -38,13 +38,16 @@ airflow/
 mkdir airflow
 cd airflow
 mkdir -p ./dags ./logs ./plugins ./config
+cd cicd 
 echo -e "AIRFLOW_UID=$(id -u)" > .env
+cd ..
 
-docker compose build
+docker compose -f cicd/docker-compose.yaml build
 
 <img width="763" height="191" alt="스크린샷 2025-11-26 오후 2 33 17" src="https://github.com/user-attachments/assets/8d4e32d0-ce03-4b1c-9a8d-228d458c79cd" />
 
-docker compose up airflow-init
-
+docker compose -f cicd/docker-compose.yaml up airflow-init
 <img width="696" height="259" alt="스크린샷 2025-11-26 오후 2 37 06" src="https://github.com/user-attachments/assets/f84db92f-d33a-4de2-9714-c27413831796" />
+
+docker compose -f cicd/docker-compose.yaml up -d
 
