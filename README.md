@@ -16,6 +16,7 @@ berw --version
 brew install colima
 ```
 <img width="363" height="32" alt="스크린샷 2025-11-26 오후 2 18 25" src="https://github.com/user-attachments/assets/45affaa4-8b3e-4a7a-8ab3-150d96477d21" />
+
 ```bash
 colima start --arch aarch64 --cpu 4 --memory 8 --disk 60
 ```
