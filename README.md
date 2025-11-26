@@ -42,12 +42,16 @@ cd cicd
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 cd ..
 
-docker compose -f cicd/docker-compose.yaml build
+docker-compose -f cicd/docker-compose.yaml build
 
-<img width="763" height="191" alt="스크린샷 2025-11-26 오후 2 33 17" src="https://github.com/user-attachments/assets/8d4e32d0-ce03-4b1c-9a8d-228d458c79cd" />
+<img width="846" height="164" alt="스크린샷 2025-11-26 오후 3 16 16" src="https://github.com/user-attachments/assets/5cbc9510-dfad-49c8-80de-9bf12b7d2d2f" />
 
-docker compose -f cicd/docker-compose.yaml up airflow-init
-<img width="696" height="259" alt="스크린샷 2025-11-26 오후 2 37 06" src="https://github.com/user-attachments/assets/f84db92f-d33a-4de2-9714-c27413831796" />
+docker-compose -f cicd/docker-compose.yaml up airflow-init
 
-docker compose -f cicd/docker-compose.yaml up -d
+<img width="830" height="249" alt="스크린샷 2025-11-26 오후 3 18 30" src="https://github.com/user-attachments/assets/4e77eff9-0d0b-4518-8cbc-817d46182b1a" />
+
+
+docker-compose -f cicd/docker-compose.yaml up -d
+
+<img width="848" height="151" alt="스크린샷 2025-11-26 오후 3 19 55" src="https://github.com/user-attachments/assets/f54ad5bd-e1b2-45bb-988e-e28aa8afd0c4" />
 
