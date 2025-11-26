@@ -16,4 +16,11 @@ colima start --arch aarch64 --cpu 4 --memory 8 --disk 60
 
 <img width="669" height="255" alt="스크린샷 2025-11-26 오후 2 20 42" src="https://github.com/user-attachments/assets/9109cf32-9fcc-453d-85cb-18685ca6e3ba" />
 
+### 4. check docker version
+brew install docker-compose
+docker --version
+docker-compose --version
+
+<img width="579" height="64" alt="스크린샷 2025-11-26 오후 2 23 50" src="https://github.com/user-attachments/assets/17606797-ddd5-4e71-903e-6d63e8ede5ea" />
+
 
