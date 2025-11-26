@@ -53,10 +53,12 @@ cd ..
 docker-compose -f cicd/docker-compose.yaml build
 ```
 <img width="846" height="164" alt="스크린샷 2025-11-26 오후 3 16 16" src="https://github.com/user-attachments/assets/5cbc9510-dfad-49c8-80de-9bf12b7d2d2f" />
+
 ```bash
 docker-compose -f cicd/docker-compose.yaml up airflow-init
 ```
 <img width="830" height="249" alt="스크린샷 2025-11-26 오후 3 18 30" src="https://github.com/user-attachments/assets/4e77eff9-0d0b-4518-8cbc-817d46182b1a" />
+
 ```bash
 docker-compose -f cicd/docker-compose.yaml up -d
 ```
