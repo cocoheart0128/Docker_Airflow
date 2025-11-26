@@ -59,6 +59,7 @@ docker-compose -f cicd/docker-compose.yaml up -d
 ### 6. check airflow webserver
 
 http://localhost:8080/
+
 <img width="1512" height="982" alt="스크린샷 2025-11-26 오후 3 25 55" src="https://github.com/user-attachments/assets/2f929028-ff82-4f57-b836-56cf26dcec7d" />
 
 
